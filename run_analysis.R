@@ -43,7 +43,7 @@ activity_labels<-activity_labels[,2]
 ## Create a column with descriptive activity names
 activity[,2]<-activity_labels[activity[,1]]
 
-## Discriptivly label activity data
+## Descriptivly label activity data
 names(activity) = c("Activity.index", "Activity.label")
 
 print("Processing activity data...Complete")
