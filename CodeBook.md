@@ -53,79 +53,79 @@ For more information about original dataset contact: activityrecognition@smartla
 - 'run_analysis.R': script that outputs tiny_data_set.txt
 - 'README.md': information on "run_analysis.R" script
 - 'CodeBook.md': information about the updated data set and variable it includes its various files
-- 'tidy_data_set.txt': output of "run_analysis.R" script, contains average of each variable for each activity and each subject present in original data set.
+- 'tidy_data_set.txt': output of "run_analysis.R" script, contains average of each mean value or standard deviation estimation variable for each activity and each subject present in original data set.
 
 ### 'tidy_data_set.txt' variables
 
-1	Subject	- test subject ID
-2	Activity.index	- activity identification as provided in 'UCI HAR Dataset/activity_labels.txt'
-3	Activity.label	- descriptive activity label
-4	tBodyAcc-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
-5	tBodyAcc-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
-6	tBodyAcc-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
-7	tBodyAcc-std()-X	- estimatred average for this original dataset feature for each activity and each subject
-8	tBodyAcc-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
-9	tBodyAcc-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
-10	tGravityAcc-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
-11	tGravityAcc-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
-12	tGravityAcc-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
-13	tGravityAcc-std()-X	- estimatred average for this original dataset feature for each activity and each subject
-14	tGravityAcc-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
-15	tGravityAcc-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
-16	tBodyAccJerk-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
-17	tBodyAccJerk-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
-18	tBodyAccJerk-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
-19	tBodyAccJerk-std()-X	- estimatred average for this original dataset feature for each activity and each subject
-20	tBodyAccJerk-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
-21	tBodyAccJerk-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
-22	tBodyGyro-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
-23	tBodyGyro-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
-24	tBodyGyro-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
-25	tBodyGyro-std()-X	- estimatred average for this original dataset feature for each activity and each subject
-26	tBodyGyro-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
-27	tBodyGyro-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
-28	tBodyGyroJerk-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
-29	tBodyGyroJerk-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
-30	tBodyGyroJerk-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
-31	tBodyGyroJerk-std()-X	- estimatred average for this original dataset feature for each activity and each subject
-32	tBodyGyroJerk-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
-33	tBodyGyroJerk-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
-34	tBodyAccMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-35	tBodyAccMag-std()	- estimatred average for this original dataset feature for each activity and each subject
-36	tGravityAccMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-37	tGravityAccMag-std()	- estimatred average for this original dataset feature for each activity and each subject
-38	tBodyAccJerkMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-39	tBodyAccJerkMag-std()	- estimatred average for this original dataset feature for each activity and each subject
-40	tBodyGyroMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-41	tBodyGyroMag-std()	- estimatred average for this original dataset feature for each activity and each subject
-42	tBodyGyroJerkMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-43	tBodyGyroJerkMag-std()	- estimatred average for this original dataset feature for each activity and each subject
-44	fBodyAcc-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
-45	fBodyAcc-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
-46	fBodyAcc-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
-47	fBodyAcc-std()-X	- estimatred average for this original dataset feature for each activity and each subject
-48	fBodyAcc-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
-49	fBodyAcc-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
-50	fBodyAccJerk-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
-51	fBodyAccJerk-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
-52	fBodyAccJerk-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
-53	fBodyAccJerk-std()-X	- estimatred average for this original dataset feature for each activity and each subject
-54	fBodyAccJerk-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
-55	fBodyAccJerk-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
-56	fBodyGyro-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
-57	fBodyGyro-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
-58	fBodyGyro-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
-59	fBodyGyro-std()-X	- estimatred average for this original dataset feature for each activity and each subject
-60	fBodyGyro-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
-61	fBodyGyro-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
-62	fBodyAccMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-63	fBodyAccMag-std()	- estimatred average for this original dataset feature for each activity and each subject
-64	fBodyBodyAccJerkMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-65	fBodyBodyAccJerkMag-std()	- estimatred average for this original dataset feature for each activity and each subject
-66	fBodyBodyGyroMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-67	fBodyBodyGyroMag-std()	- estimatred average for this original dataset feature for each activity and each subject
-68	fBodyBodyGyroJerkMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
-69	fBodyBodyGyroJerkMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+1.	Subject	- test subject ID
+2.	Activity.index	- activity identification as provided in 'UCI HAR Dataset/activity_labels.txt'
+3.	Activity.label	- descriptive activity label
+4.	tBodyAcc-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
+5.	tBodyAcc-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
+6.	tBodyAcc-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
+7.	tBodyAcc-std()-X	- estimatred average for this original dataset feature for each activity and each subject
+8.	tBodyAcc-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
+9.	tBodyAcc-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
+10.	tGravityAcc-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
+11.	tGravityAcc-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
+12.	tGravityAcc-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
+13.	tGravityAcc-std()-X	- estimatred average for this original dataset feature for each activity and each subject
+14.	tGravityAcc-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
+15.	tGravityAcc-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
+16.	tBodyAccJerk-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
+17.	tBodyAccJerk-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
+18.	tBodyAccJerk-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
+19.	tBodyAccJerk-std()-X	- estimatred average for this original dataset feature for each activity and each subject
+20.	tBodyAccJerk-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
+21.	tBodyAccJerk-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
+22.	tBodyGyro-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
+23.	tBodyGyro-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
+24.	tBodyGyro-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
+25.	tBodyGyro-std()-X	- estimatred average for this original dataset feature for each activity and each subject
+26.	tBodyGyro-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
+27.	tBodyGyro-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
+28.	tBodyGyroJerk-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
+29.	tBodyGyroJerk-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
+30.	tBodyGyroJerk-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
+31.	tBodyGyroJerk-std()-X	- estimatred average for this original dataset feature for each activity and each subject
+32.	tBodyGyroJerk-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
+33.	tBodyGyroJerk-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
+34.	tBodyAccMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+35.	tBodyAccMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+36.	tGravityAccMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+37.	tGravityAccMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+38.	tBodyAccJerkMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+39.	tBodyAccJerkMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+40.	tBodyGyroMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+41.	tBodyGyroMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+42.	tBodyGyroJerkMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+43.	tBodyGyroJerkMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+44.	fBodyAcc-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
+45.	fBodyAcc-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
+46.	fBodyAcc-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
+47.	fBodyAcc-std()-X	- estimatred average for this original dataset feature for each activity and each subject
+48.	fBodyAcc-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
+49.	fBodyAcc-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
+50.	fBodyAccJerk-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
+51.	fBodyAccJerk-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
+52.	fBodyAccJerk-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
+53.	fBodyAccJerk-std()-X	- estimatred average for this original dataset feature for each activity and each subject
+54.	fBodyAccJerk-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
+55.	fBodyAccJerk-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
+56.	fBodyGyro-mean()-X	- estimatred average for this original dataset feature for each activity and each subject
+57.	fBodyGyro-mean()-Y	- estimatred average for this original dataset feature for each activity and each subject
+58.	fBodyGyro-mean()-Z	- estimatred average for this original dataset feature for each activity and each subject
+59.	fBodyGyro-std()-X	- estimatred average for this original dataset feature for each activity and each subject
+60.	fBodyGyro-std()-Y	- estimatred average for this original dataset feature for each activity and each subject
+61.	fBodyGyro-std()-Z	- estimatred average for this original dataset feature for each activity and each subject
+62.	fBodyAccMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+63.	fBodyAccMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+64.	fBodyBodyAccJerkMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+65.	fBodyBodyAccJerkMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+66.	fBodyBodyGyroMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+67.	fBodyBodyGyroMag-std()	- estimatred average for this original dataset feature for each activity and each subject
+68.	fBodyBodyGyroJerkMag-mean()	- estimatred average for this original dataset feature for each activity and each subject
+69.	fBodyBodyGyroJerkMag-std()	- estimatred average for this original dataset feature for each activity and each subject
 
 
 The features in original dataset come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
