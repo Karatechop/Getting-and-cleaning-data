@@ -25,30 +25,30 @@ You should create one R script called run_analysis.R that does the following.
 ## Script details
 In order to achieve the project tasks, this script performs following operations on the raw data:
 * Load data
-  Load activity labels
-  Load train and test subjects index
-  Load variable names
-  Load train data
-  Load test data
+  * Load activity labels
+  * Load train and test subjects index
+  * Load variable names
+  * Load train data
+  * Load test data
 * Merge y_test and y_train; provide descriptive column names
-  Bind train and test activity data
-  Convert 2nd clumn of activity_labels data frame into factor vector that will allow activity labeling based on activity index (y data)
-  Create a column with descriptive activity names
-  Discriptivly label activity data
+  * Bind train and test activity data
+  * Convert 2nd clumn of activity_labels data frame into factor vector that will allow activity labeling based on activity index (y data)
+  * Create a column with descriptive activity names
+  * Discriptivly label activity data
 * Merge X_test and X_train; provide descriptive column names
-  Bind train and test measurements data
-  Provide column names for measurements data
+  * Bind train and test measurements data
+  * Provide column names for measurements data
 * Extract only the measurements on the mean and standard deviation for each measurement
 * Bind subject_train and subject_test data; provide descriptive column names
-  Bind train and test subject data
-  Provide column name for subject data
+  * Bind train and test subject data
+  * Provide column name for subject data
 * Merge all data
-  Bind the columns of bound subject, activity and measurements data
+  * Bind the columns of bound subject, activity and measurements data
 * Create tidy data set with the average of each variable for each activity and each subject
-  Convert variables in Activity.label and Subject columns into factors to introduce levels that will allow aggregation base on them
-  Calculate the average of each variable for each activity and each subject
-  Remove introduced NA columns
-  Save tidy data set in a file
+  * Convert variables in Activity.label and Subject columns into factors to introduce levels that will allow aggregation base on them
+  * Calculate the average of each variable for each activity and each subject
+  * Remove introduced NA columns
+  * Save tidy data set in a file
 
 
 ## Warnings
