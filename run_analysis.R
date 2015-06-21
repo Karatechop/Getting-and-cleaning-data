@@ -101,7 +101,7 @@ tidy.set = aggregate(data, by=list(Subject = data$Subject, Activity.label = data
 tidy.set<-tidy.set[, colSums(is.na(tidy.set)) != nrow(tidy.set)]
 
 ## Save tidy data set in a file
-write.table(tidy.set, file = "./tidy_data_set.txt")
+write.table(tidy.set, file = "./tidy_data_set.txt", row.name=FALSE)
 
 print("Creating tidy data set with the average of each variable for each activity and each subject...Complete")
 print("Tidy data set saved in ./tidy_data_set.txt")
