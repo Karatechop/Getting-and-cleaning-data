@@ -60,7 +60,7 @@ features.names<-features[,2]
 names(measurements)<-features.names
 
 ## Extract only the measurements on the mean and standard deviation for each measurement
-measurements<-measurements[,grep("mean|std", features.names)]
+measurements<-measurements[,grep(".*mean\\(\\)|.*std\\(\\)", features.names)]
 
 print("Processing measurements data...Complete")
 
@@ -90,7 +90,7 @@ print("Binding data...Complete")
 print("Creating tidy data set with the average of each variable for each activity and each subject...")
 
 ## Convert variables in Activity.label and Subject columns into factors
-## to introduce levels that will allow aggregation base on them
+## to introduce levels that will allow aggregation
 data$Activity.label <- as.factor(data$Activity.label)
 data$Subject <- as.factor(data$Subject)
 

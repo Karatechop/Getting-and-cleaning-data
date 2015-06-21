@@ -30,26 +30,27 @@ In order to achieve the project tasks, this script performs following operations
   * Load variable names
   * Load train data
   * Load test data
-* Merge y_test and y_train; provide descriptive column names
+* Merge y_test and y_train data and provide descriptive column names
   * Bind train and test activity data
   * Convert 2nd clumn of activity_labels data frame into factor vector that will allow activity labeling based on activity index (y data)
   * Create a column with descriptive activity names
   * Discriptivly label activity data
-* Merge X_test and X_train; provide descriptive column names
+* Merge X_test and X_train data and provide descriptive column names
   * Bind train and test measurements data
   * Provide column names for measurements data
 * Extract only the measurements on the mean and standard deviation for each measurement
-* Bind subject_train and subject_test data; provide descriptive column names
+* Bind subject_train and subject_test data and provide descriptive column names
   * Bind train and test subject data
   * Provide column name for subject data
 * Merge all data
   * Bind the columns of bound subject, activity and measurements data
 * Create tidy data set with the average of each variable for each activity and each subject
-  * Convert variables in Activity.label and Subject columns into factors to introduce levels that will allow aggregation base on them
+  * Convert variables in Activity.label and Subject columns into factors to introduce levels that will allow aggregation
   * Calculate the average of each variable for each activity and each subject
   * Remove introduced NA columns
   * Save tidy data set in a file
 
+Please refere to the CodeBook.md, UCI HAR Dataset/README.txt, UCI HAR Dataset/features_info.txt  files for more information on specific variables.
 
 ## Warnings
 Upon execution this script writes out following message: "There were 50 or more warnings (use warnings() to see the first 50)"
