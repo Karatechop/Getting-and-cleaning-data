@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1434890816598.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3AFB2083",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "2txqz6umkl",
+        "caption" : "activity_labels",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=activity_labels&cache_key=2txqz6umkl",
+        "displayedObservations" : 6,
+        "environment" : "",
+        "object" : "activity_labels",
+        "totalObservations" : 6,
+        "variables" : 2
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
